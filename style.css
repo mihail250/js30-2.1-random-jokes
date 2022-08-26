@@ -1,0 +1,53 @@
+.wrapperOne {
+  
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+}
+
+
+body {
+    background-color: burlywood;
+    overflow:  hidden;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+    align-items: center;
+}
+.button {
+    margin-top: 20px;
+    
+}
+
+.quote {
+    margin-top: 20px;
+    font-size: 200%;
+  
+    
+}
+
+.theButton {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    
+    
+}
+
+.image {
+    margin: 10px;
+    
+}
+.theButton:hover {
+   font-size: 90%;
+   width: 310px;
+ 
+}
